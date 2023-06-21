@@ -1,0 +1,105 @@
+header {
+    text-align: center;
+    background-color: #79b9c8;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 30px;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background-color: #79b9c8;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    color: #333333;
+  }
+  
+  .InputSection,
+  #KeteranganCelciusSection,
+  #KeteranganFahrenheitSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .InputSection label {
+    margin-bottom: 5px;
+  }
+  
+  .InputSection input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #79b9c8;
+  }
+  
+
+  .InputButtonSection {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .InputButtonSection button {
+    background-color: #79b9c8;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .NoteSection {
+    text-align: center;
+  }
+  
+  .NoteSection label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .NoteSection textarea {
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #79b9c8;
+    box-sizing: border-box;
+    height: 4em;
+    resize: none;
+    margin-bottom: 20px;
+  }
+  
+  #KeteranganCelciusSection,
+  #KeteranganFahrenheitSection {
+    background-color: #f0f5f8;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #79b9c8;
+  }
+  
+  p {
+    color: #333333;
+  }
+  
+  #labelNote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
